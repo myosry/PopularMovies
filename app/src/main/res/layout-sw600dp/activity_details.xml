@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.popularmovies.activities.DetailsActivity">
+
+
+    <include layout="@layout/content_details" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fav_fab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+         android:src="@drawable/heart"
+        android:visibility="visible"
+        />
+
+
+       <android.support.design.widget.FloatingActionButton
+        android:id="@+id/delete_fab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+         android:src="@drawable/ic_action_name"
+           android:visibility="gone"
+        />
+
+</android.support.design.widget.CoordinatorLayout>

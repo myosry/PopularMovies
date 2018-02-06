@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">PopularMovies</string>
+    <string name="action_setting">Settings</string>
+    <string name="name_movie">Movie Title</string>
+    <string name="movie_detalis">Movie Details</string>
+    <string name="plot">Plot Synopsis</string>
+    <string name="raring">User Rating</string>
+    <string name="release">Release Date</string>
+    <string name="pref_most_popular">Most Popular</string>
+    <string name="pref_sort_order_label">Sort Order</string>
+    <string name="pref_sort_order_key">sortOrder</string>
+    <string name="pref_highest_rated">Highest Rated</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="pref_sorting_rating">Movie Rate</string>
+    <string name="check_connection">Check Your Internet Connection..!</string>
+    <string name="insert_api_key">Please Insert Your API KEY</string>
+    <string name="retry">Retry</string>
+    <string name="reviews">Reviews</string>
+    <string name="trailers">Trailers</string>
+    <string name="movie_date">Movie Date :</string>
+    <string name="movie_overview">Movie Overview</string>
+    <string name="favorite">favorite</string>
+    <string name="title_activity_detail_favorite">DetailFavorite</string>
+    <string name="move_rate">Move Rate :</string>
+    <string name="title_activity_favorite">Favourtie Movies</string>
+</resources>

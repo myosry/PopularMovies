@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="6dp"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:src="@drawable/ic_launcher_background"
+        android:id="@+id/movie_poster"
+        android:adjustViewBounds="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/mainHolder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?android:selectableItemBackground"
+        android:orientation="vertical" />
+
+    <LinearLayout
+        android:id="@+id/placeNameHolder"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_gravity="bottom"
+        android:background="@android:color/holo_blue_dark"
+        android:orientation="vertical"
+        android:transitionName="tNameHolder">
+
+        <TextView
+            android:text="sasd"
+            android:id="@+id/movie_name"
+            android:fontFamily="serif"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/white"  />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/placeRatingHolder"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_gravity="bottom"
+        android:background="@color/yellow"
+        android:orientation="vertical"
+        android:transitionName="tNameHolder">
+
+           <TextView
+            android:id="@+id/movie_rating"
+            android:fontFamily="serif"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/black"  />
+    </LinearLayout>
+
+</LinearLayout>

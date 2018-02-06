@@ -1,0 +1,10 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="right_margin">16dp</dimen>
+    <dimen name="left_margin">16dp</dimen>
+    <dimen name="buttom_margin">16dp</dimen>
+    <dimen name="top_margin">16dp</dimen>
+    <dimen name="padding_bottom">10dp</dimen>
+    <dimen name="padding_top">10dp</dimen>
+    <dimen name="expanmdrginStart">34dp</dimen>
+</resources>
