@@ -4,7 +4,6 @@ Built an app to help users discover popular and highly rated movies on the web. 
 A simple Android app, that helps user to discover movies. This is Project 1 & Project 2 of Udacity's Android Developer Nanodegree.
 
 # Features:
-
 - Discover the most popular, the highest rated and the most rated movies
 - Watch movie trailers and teasers
 - Read reviews from other users
@@ -28,7 +27,6 @@ TheMovieDBApiToken="Your API key"
 **Building**
 
 You can build the app with Android Studio or with ./gradlew assembleDebug command.
-
 
 # License
 Copyright (c) [2018] [Mustafa Yosri]
